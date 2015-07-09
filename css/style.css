@@ -1,0 +1,31 @@
+.bcf-item {
+    width: 22%;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+/*.bcf-item + .bcf-item {*/
+/*margin-right: 0;*/
+/*}*/
+
+.bcf-table .bcf-item a {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bcf-repeatable-container input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bcf-repeatable-container button {
+    margin-right: 10px;
+    margin-bottom: 7px;
+    width: 30px;
+
+}
+
+#bcf input[type=text], #bcf textarea {
+    width: 100% !important;
+}
